@@ -1,0 +1,21 @@
+{
+  "source_file": "major_crypto.csv",
+  "source_sha256": "d829f2dffb8d330e04beca6190727c51c62ab68ac63b7642361f4db61930f77c",
+  "snapshot_date": "2026-10-19",
+  "raw_calendar_rows": 4416,
+  "empty_precoverage_asset_rows_removed": 4596,
+  "exact_duplicate_rows_removed": 0,
+  "excluded_observations": 5,
+  "clean_observations": 17479,
+  "first_date": "2014-09-17",
+  "last_date": "2026-10-18",
+  "missing_calendar_dates": {
+    "BNB-USD": [],
+    "BTC-USD": [],
+    "ETH-USD": [],
+    "USDT-USD": [],
+    "XRP-USD": []
+  },
+  "adj_close_equals_close": true,
+  "note": "User-reported yfinance provenance; no independent historical re-download."
+}

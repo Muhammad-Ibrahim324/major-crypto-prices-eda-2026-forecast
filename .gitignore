@@ -1,0 +1,33 @@
+# Python environments and generated caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+kaggle.json
+credentials*.json
+token*.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary exports and archives
+*.log
+*.tmp
+*.bak
+*.zip
+build/
+dist/
+
+# Keep the clean data, source snapshot, executed notebook,
+# documentation, evaluation results and selected charts tracked.

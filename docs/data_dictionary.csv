@@ -1,0 +1,10 @@
+Column,Short description,Type or unit,Meaning
+date,Observation calendar date,YYYY-MM-DD,Source daily date label; no timezone in CSV.
+symbol,Cryptocurrency trading symbol,Text,"BTC, ETH, USDT, BNB or XRP."
+ticker,Yahoo Finance ticker,Text,"Provider identifier, e.g. BTC-USD."
+open,Daily opening price,USD,Provider-reported opening price.
+high,Daily highest price,USD,Provider-reported daily high.
+low,Daily lowest price,USD,Provider-reported daily low.
+close,Daily closing price,USD,"Observed close, not a forecast."
+adj_close,Provider adjusted closing price,USD,Equals close in this snapshot; kept for traceability.
+volume,Provider reported trading volume,Integer,Preserved Yahoo value; not assumed to be a count of coins.
